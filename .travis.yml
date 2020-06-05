@@ -9,7 +9,6 @@ deploy_service_job: &DEPLOY_SERVICE_JOB
       - ${SERVICE_PATH}/node_modules
 
   before_install:
-    - openssl aes-256-cbc -K $encrypted_38255b476bef_key -iv $encrypted_38255b476bef_iv -in secret.yml.enc -out secret.yml -d
     - ls -lah
   install:
     - npm install -g serverless
