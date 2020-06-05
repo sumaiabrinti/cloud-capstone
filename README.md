@@ -1,5 +1,5 @@
 #Cloud_capstone
-
+[![Build Status](https://travis-ci.org/sumaiabrinti/cloud-capstone.svg?branch=master)](https://travis-ci.org/sumaiabrinti/cloud-capstone)
 
 # Serverless TODO
 
